@@ -1,4 +1,4 @@
-package com.example.hsbc.droolsTemplate.service;
+package com.hsbc.droolsTemplate.service;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

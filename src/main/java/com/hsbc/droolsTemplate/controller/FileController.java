@@ -1,8 +1,5 @@
 package com.hsbc.droolsTemplate.controller;
 
-import com.example.hsbc.droolsTemplate.service.FileService;
-import com.hsbc.droolsTemplate.model.ResponseModel;
-
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.hsbc.droolsTemplate.model.ResponseModel;
+import com.hsbc.droolsTemplate.service.FileService;
 
 @RestController
 @RequestMapping("/file")
