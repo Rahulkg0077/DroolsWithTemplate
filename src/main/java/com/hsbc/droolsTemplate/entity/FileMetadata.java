@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Document(collection = "fileMetadata")
-public class File {
+public class FileMetadata {
 
     public String getId() {
         return id;
